@@ -1,0 +1,29 @@
+{
+    "comment": "verifies that setState and checkState are consistent",
+    "steps": [
+        {
+            "step": "setState",
+            "accounts": {
+                "address:the-address": {
+                    "nonce": "5",
+                    "balance": "150",
+                    "username": "str:theusername.|0x6e756d626174",
+                    "storage": {},
+                    "code": ""
+                }
+            }
+        },
+        {
+            "step": "checkState",
+            "accounts": {
+                "address:the-address": {
+                    "nonce": "5",
+                    "balance": "150",
+                    "username": "str:theusername.|0x6e756d626174",
+                    "storage": {},
+                    "code": ""
+                }
+            }
+        }
+    ]
+}
